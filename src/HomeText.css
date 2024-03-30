@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Honk';
+    src: url('Honk.ttf') format('truetype');
+}
+
+
+.txtbackground{
+    background-color: #8481c0;
+}
+
+.containertxt{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#8481c0, #4a468b);
+    width: 100%;
+}
+
+.textanim {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "MORF" 25, "SHLN" 0;
+    font-palette: --color;
+    font-size: calc(14vw + 0.5rem);
+    letter-spacing: 0.4ch;
+    animation: morph 5s ease alternate infinite;
+    text-align: center; /* Add this line to center the text horizontally */
+}
+
+
+@font-palette-values --color {
+	font-family: "Honk";
+	base-palette: 4;
+}
+
+
+@keyframes morph {
+	0% {
+		font-variation-settings: "MORF" 25, "SHLN" 0;
+	}
+
+	100% {
+		font-variation-settings: "MORF" 45, "SHLN" 100;
+	}
+}
