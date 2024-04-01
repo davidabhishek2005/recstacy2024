@@ -4,10 +4,10 @@ import './HomeText.css';
 function HomeText () {
     return(
         <>
-        <div className="txtbackground">
+      
       <div className = "containtxt" >
+      <canvas id="demo-canvas"></canvas>
 <h1 className="textanim">Recstacy</h1>
-</div>
 </div>
         </>
     )

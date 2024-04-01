@@ -16,7 +16,7 @@ const Section = styled.section`
 min-height: ${props => `calc(100vh - ${props.theme.navHeight})`   };
 width: 100vw;
 position: relative;
-background-color: ${props => props.theme.body};
+background-color: #8481C0;
 `
 
 const Container = styled.div`
@@ -112,9 +112,9 @@ font-size:${props => props.theme.fontlg};
 const Home = () => {
   return (
     <>
-    <HomeText />
+   
     <Section id="home">
-    
+    <HomeText />
       <Container>
       <Box>
         <Suspense fallback={<Loading />}>

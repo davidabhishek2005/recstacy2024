@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Button from "./Button";
 import Logo from "./Logo";
 import { Link } from 'react-router-dom';
+import recstacytext from '../assets/recstacytext.png'
 
 const Section = styled.section`
   width: 100vw;
@@ -169,12 +170,12 @@ const Navigation = () => {
 {/* <Link to="/faq"><MenuItem>Faq</MenuItem></Link> */}
           <MenuItem>
             <div className="mobile">
-              <Button text="Connect Wallet" link="https://google.com" newTab={true} />
+            <img src={recstacytext} loading="lazy" alt="Recstacy Logo" class="image-7"/>
             </div>
           </MenuItem>
         </Menu>
         <div className="desktop">
-          <Button text="Connect Wallet" link="https://google.com" newTab={true}/>
+        <img src={recstacytext} loading="lazy" alt="Recstacy Logo" class="image-7"/>
         </div>
       </NavBar>
     </Section>
