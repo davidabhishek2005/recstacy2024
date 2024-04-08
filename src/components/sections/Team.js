@@ -140,7 +140,7 @@ const Team = () => {
     <Section id="team">
     <Suspense fallback={<Loading />}>
     <ConfettiComponent  /> </Suspense>
-      <Title>Team</Title>
+      <Title>CONTACT US</Title>
       <Container>
         <MemberComponent img={img1}  name="SKYBLAZE" position="founder" />
         <MemberComponent img={img2}  name="MEGNUM" position="Co-Founder" />

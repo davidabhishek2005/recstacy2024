@@ -165,8 +165,8 @@ const Navigation = () => {
           <Link to="/"><MenuItem>Home</MenuItem></Link>
 <Link to="/about"><MenuItem>Event</MenuItem></Link>
 <Link to="/roadmap"><MenuItem>Timeline</MenuItem></Link>
-<Link to="/showcase"><MenuItem>Showcase</MenuItem></Link>
-<Link to="/team"><MenuItem>Team</MenuItem></Link>
+<Link to="/showcase"><MenuItem>Attractions</MenuItem></Link>
+<Link to="/team"><MenuItem>Contact Us</MenuItem></Link>
 {/* <Link to="/faq"><MenuItem>Faq</MenuItem></Link> */}
           <MenuItem>
             <div className="mobile">

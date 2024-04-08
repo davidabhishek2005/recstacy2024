@@ -1,0 +1,28 @@
+.smoke{
+    z-index:110;
+    position:absolute;
+}
+/* video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+} */
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 800px;
+    position: relative; /* Ensure positioning context for z-index */
+    z-index: 1; /* Set a higher z-index value */
+  }
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .video-fade-out {
+    animation: fadeOut 1s ease forwards; /* Adjust timing and easing as needed */
+  }
+  
+

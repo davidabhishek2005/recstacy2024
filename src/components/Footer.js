@@ -143,7 +143,7 @@ const Footer = () => {
                         {/* <img src={footer_img} loading="lazy" alt="" class="newfooter-phone-right"/> */}
                         <img src={footer_img}  loading="lazy" alt="" class="image-26"/>
                         <h1 class="titre-footer">
-                            Journey beyond<br/>paracosm
+                            Where Chaos <br/>strikes <br/>The Chord
                         </h1>
                         <div>
                             <p class="description big wide text-white description-footer text-center">Fun is just an event away!</p>

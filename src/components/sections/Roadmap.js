@@ -3,11 +3,14 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import React, { useLayoutEffect, useRef } from "react";
 import styled from "styled-components";
 import DrawSvg from "../DrawSvg";
+import './roadmap.css' ;
+
+
 
 const Section = styled.section`
   min-height: 100vh;
   width: 100vw;
-  background-color: ${(props) => props.theme.body};
+  background-color: rgba(106,68,71,1);
   position: relative;
   display: inline-block;
   overflow: hidden;
@@ -31,7 +34,7 @@ const Title = styled.h1`
 const Container = styled.div`
   width: 70%;
   height: 200vh;
-  background-color: ${(props) => props.theme.body};
+  background-color: rgba(106,68,71,1);
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -209,14 +212,20 @@ const Roadmap = () => {
     };
   }, []);
 
+  
+
   return (
     <Section id="roadmap">
       <Title>TIMELINE</Title>
+     
+            
       <Container>
         <SvgContainer>
           <DrawSvg />
         </SvgContainer>
+        
         <Items>
+             
           <Item>&nbsp;</Item>
           <RoadMapItem
             addToRef={addToRefs}
@@ -249,4 +258,4 @@ const Roadmap = () => {
   );
 };
 
-export default Roadmap;
+export default Roadmap; 
